@@ -1,0 +1,4 @@
+(library
+ (public_name gaml)
+ (libraries unix str domainslib)
+ (name gaml))
