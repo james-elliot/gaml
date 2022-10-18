@@ -5,11 +5,11 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github james-elliot/gaml))
 
-(authors "Author Name")
+(authors "Jean-Marc Alliot")
 
-(maintainers "Maintainer Name")
+(maintainers "Jean-Marc Alliot")
 
 (license LICENSE)
 
@@ -17,10 +17,10 @@
 
 (package
  (name gaml)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "A genetic algorithm in ML")
+ (description "A genetic algorithm in ML")
  (depends ocaml dune domainslib)
  (tags
-  (topics "to describe" your project)))
+  (ocaml ML "Genetic Algorithm")))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
