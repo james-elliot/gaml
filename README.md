@@ -11,5 +11,10 @@ To run test:
 To build doc:
 >dune build @doc
 
+To create package:
+>dune build -p gaml
+
+To install:
+>opam install ./gaml.install
 
 
